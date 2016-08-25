@@ -29,7 +29,7 @@ namespace ChromeLaunch
             // Start the process
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.FileName = chrome;
-            startInfo.Arguments = "--disable-print-preview --disable-popup-blocking --disable-smooth-scrolling --allow-no-sandbox-job --disable-gpu --disable-direct-write https://athenanet.athenahealth.com";
+            startInfo.Arguments = "--disable-print-preview --disable-popup-blocking --disable-smooth-scrolling --allow-no-sandbox-job --disable-gpu --disable-direct-write";
             Process.Start(startInfo);
 
 
